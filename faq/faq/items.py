@@ -12,4 +12,5 @@ class FaqItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     question = scrapy.Field()
+    questionDetailed = scrapy.Field()
     answer = scrapy.Field()
